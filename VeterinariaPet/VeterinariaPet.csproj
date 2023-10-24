@@ -46,17 +46,89 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="datos\conexion.cs" />
+    <Compile Include="Formularios\conexion.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\N_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\N_2.Designer.cs">
+      <DependentUpon>N_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\N_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\N_3.Designer.cs">
+      <DependentUpon>N_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\N_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\N_1.Designer.cs">
+      <DependentUpon>N_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\N_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\N_4.Designer.cs">
+      <DependentUpon>N_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\N_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\N_5.Designer.cs">
+      <DependentUpon>N_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\Compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reportes\Compras.Designer.cs">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\Pagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reportes\Pagos.Designer.cs">
+      <DependentUpon>Pagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reportes\Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reportes\Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\N_1.resx">
+      <DependentUpon>N_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\N_2.resx">
+      <DependentUpon>N_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\N_3.resx">
+      <DependentUpon>N_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\N_4.resx">
+      <DependentUpon>N_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\N_5.resx">
+      <DependentUpon>N_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\Compras.resx">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\Pagos.resx">
+      <DependentUpon>Pagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reportes\Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,6 +151,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="datos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
