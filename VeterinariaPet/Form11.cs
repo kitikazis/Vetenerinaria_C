@@ -12,9 +12,9 @@ using VeterinariaPet.Formularios.Reportes;
 
 namespace VeterinariaPet
 {
-    public partial class Form1 : Form
+    public partial class Form11 : Form
     {
-        public Form1()
+        public Form11()
         {
             InitializeComponent();
         }
@@ -98,6 +98,11 @@ namespace VeterinariaPet
         private void button2_Click(object sender, EventArgs e)
         {
             abriFormHija(new N_4());
+        }
+
+        private void MenuVertical_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
