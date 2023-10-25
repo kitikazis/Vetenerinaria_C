@@ -45,14 +45,15 @@
             this.btn_reportes = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.sub_menu_reportes = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.MenuVertical = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.btn_reporte_ventas = new System.Windows.Forms.Button();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.btn_reportes_ventas = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
             this.btn_reportes_pagos = new System.Windows.Forms.Button();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.btn_reportes_ventas = new System.Windows.Forms.Button();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.btn_reporte_ventas = new System.Windows.Forms.Button();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.MenuVertical = new System.Windows.Forms.Panel();
+            this.panel_contenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.sub_menu_reportes.SuspendLayout();
             this.MenuVertical.SuspendLayout();
@@ -70,6 +71,7 @@
             // panel_contenedor
             // 
             this.panel_contenedor.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.panel_contenedor.Controls.Add(this.pictureBox1);
             this.panel_contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_contenedor.Location = new System.Drawing.Point(220, 0);
             this.panel_contenedor.Name = "panel_contenedor";
@@ -80,7 +82,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(28, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(100, 67);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(146, 138);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -269,62 +271,31 @@
             this.sub_menu_reportes.Visible = false;
             this.sub_menu_reportes.Paint += new System.Windows.Forms.PaintEventHandler(this.SubMenu_Reportes_Paint);
             // 
-            // panel9
+            // panel12
             // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel9.Location = new System.Drawing.Point(-33, 38);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(10, 49);
-            this.panel9.TabIndex = 14;
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel12.Location = new System.Drawing.Point(3, 125);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(10, 49);
+            this.panel12.TabIndex = 19;
             // 
-            // MenuVertical
+            // btn_reportes_pagos
             // 
-            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.MenuVertical.Controls.Add(this.sub_menu_reportes);
-            this.MenuVertical.Controls.Add(this.panel5);
-            this.MenuVertical.Controls.Add(this.btn_reportes);
-            this.MenuVertical.Controls.Add(this.panel6);
-            this.MenuVertical.Controls.Add(this.button5);
-            this.MenuVertical.Controls.Add(this.panel3);
-            this.MenuVertical.Controls.Add(this.button2);
-            this.MenuVertical.Controls.Add(this.panel4);
-            this.MenuVertical.Controls.Add(this.button3);
-            this.MenuVertical.Controls.Add(this.panel2);
-            this.MenuVertical.Controls.Add(this.button1);
-            this.MenuVertical.Controls.Add(this.panel1);
-            this.MenuVertical.Controls.Add(this.btn_producto);
-            this.MenuVertical.Controls.Add(this.pictureBox1);
-            this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
-            this.MenuVertical.Location = new System.Drawing.Point(0, 0);
-            this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(220, 824);
-            this.MenuVertical.TabIndex = 1;
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel10.Location = new System.Drawing.Point(3, 3);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(10, 49);
-            this.panel10.TabIndex = 15;
-            // 
-            // btn_reporte_ventas
-            // 
-            this.btn_reporte_ventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_reporte_ventas.FlatAppearance.BorderSize = 0;
-            this.btn_reporte_ventas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btn_reporte_ventas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_reporte_ventas.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_reporte_ventas.ForeColor = System.Drawing.Color.White;
-            this.btn_reporte_ventas.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btn_reporte_ventas.Location = new System.Drawing.Point(12, 3);
-            this.btn_reporte_ventas.Name = "btn_reporte_ventas";
-            this.btn_reporte_ventas.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_reporte_ventas.Size = new System.Drawing.Size(144, 49);
-            this.btn_reporte_ventas.TabIndex = 16;
-            this.btn_reporte_ventas.Text = "Ventas";
-            this.btn_reporte_ventas.UseVisualStyleBackColor = false;
-            this.btn_reporte_ventas.Click += new System.EventHandler(this.btn_reporte_ventas_Click);
+            this.btn_reportes_pagos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_reportes_pagos.FlatAppearance.BorderSize = 0;
+            this.btn_reportes_pagos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btn_reportes_pagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_reportes_pagos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reportes_pagos.ForeColor = System.Drawing.Color.White;
+            this.btn_reportes_pagos.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btn_reportes_pagos.Location = new System.Drawing.Point(12, 125);
+            this.btn_reportes_pagos.Name = "btn_reportes_pagos";
+            this.btn_reportes_pagos.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btn_reportes_pagos.Size = new System.Drawing.Size(144, 49);
+            this.btn_reportes_pagos.TabIndex = 20;
+            this.btn_reportes_pagos.Text = "Pagos";
+            this.btn_reportes_pagos.UseVisualStyleBackColor = false;
+            this.btn_reportes_pagos.Click += new System.EventHandler(this.btn_reportes_pagos_Click);
             // 
             // panel11
             // 
@@ -352,31 +323,61 @@
             this.btn_reportes_ventas.UseVisualStyleBackColor = false;
             this.btn_reportes_ventas.Click += new System.EventHandler(this.btn_reportes_ventas_Click);
             // 
-            // panel12
+            // panel10
             // 
-            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel12.Location = new System.Drawing.Point(3, 125);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(10, 49);
-            this.panel12.TabIndex = 19;
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel10.Location = new System.Drawing.Point(3, 3);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(10, 49);
+            this.panel10.TabIndex = 15;
             // 
-            // btn_reportes_pagos
+            // btn_reporte_ventas
             // 
-            this.btn_reportes_pagos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_reportes_pagos.FlatAppearance.BorderSize = 0;
-            this.btn_reportes_pagos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btn_reportes_pagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_reportes_pagos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_reportes_pagos.ForeColor = System.Drawing.Color.White;
-            this.btn_reportes_pagos.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btn_reportes_pagos.Location = new System.Drawing.Point(12, 125);
-            this.btn_reportes_pagos.Name = "btn_reportes_pagos";
-            this.btn_reportes_pagos.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_reportes_pagos.Size = new System.Drawing.Size(144, 49);
-            this.btn_reportes_pagos.TabIndex = 20;
-            this.btn_reportes_pagos.Text = "Pagos";
-            this.btn_reportes_pagos.UseVisualStyleBackColor = false;
-            this.btn_reportes_pagos.Click += new System.EventHandler(this.btn_reportes_pagos_Click);
+            this.btn_reporte_ventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_reporte_ventas.FlatAppearance.BorderSize = 0;
+            this.btn_reporte_ventas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btn_reporte_ventas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_reporte_ventas.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reporte_ventas.ForeColor = System.Drawing.Color.White;
+            this.btn_reporte_ventas.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btn_reporte_ventas.Location = new System.Drawing.Point(12, 3);
+            this.btn_reporte_ventas.Name = "btn_reporte_ventas";
+            this.btn_reporte_ventas.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btn_reporte_ventas.Size = new System.Drawing.Size(144, 49);
+            this.btn_reporte_ventas.TabIndex = 16;
+            this.btn_reporte_ventas.Text = "Ventas";
+            this.btn_reporte_ventas.UseVisualStyleBackColor = false;
+            this.btn_reporte_ventas.Click += new System.EventHandler(this.btn_reporte_ventas_Click);
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel9.Location = new System.Drawing.Point(-33, 38);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(10, 49);
+            this.panel9.TabIndex = 14;
+            // 
+            // MenuVertical
+            // 
+            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.MenuVertical.Controls.Add(this.sub_menu_reportes);
+            this.MenuVertical.Controls.Add(this.panel5);
+            this.MenuVertical.Controls.Add(this.btn_reportes);
+            this.MenuVertical.Controls.Add(this.panel6);
+            this.MenuVertical.Controls.Add(this.button5);
+            this.MenuVertical.Controls.Add(this.panel3);
+            this.MenuVertical.Controls.Add(this.button2);
+            this.MenuVertical.Controls.Add(this.panel4);
+            this.MenuVertical.Controls.Add(this.button3);
+            this.MenuVertical.Controls.Add(this.panel2);
+            this.MenuVertical.Controls.Add(this.button1);
+            this.MenuVertical.Controls.Add(this.panel1);
+            this.MenuVertical.Controls.Add(this.btn_producto);
+            this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
+            this.MenuVertical.Location = new System.Drawing.Point(0, 0);
+            this.MenuVertical.Name = "MenuVertical";
+            this.MenuVertical.Size = new System.Drawing.Size(220, 824);
+            this.MenuVertical.TabIndex = 1;
             // 
             // Form1
             // 
@@ -389,6 +390,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.panel_contenedor.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.sub_menu_reportes.ResumeLayout(false);
             this.MenuVertical.ResumeLayout(false);
