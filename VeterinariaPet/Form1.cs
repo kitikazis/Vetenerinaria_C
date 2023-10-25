@@ -99,5 +99,19 @@ namespace VeterinariaPet
         {
             abriFormHija(new N_4());
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'animalPetDataSet.ObtenerTodosLosUsuarios' Puede moverla o quitarla según sea necesario.
+            this.obtenerTodosLosUsuariosTableAdapter.Fill(this.animalPetDataSet.ObtenerTodosLosUsuarios);
+            // TODO: esta línea de código carga datos en la tabla 'animalPetDataSet.Citas' Puede moverla o quitarla según sea necesario.
+            this.citasTableAdapter.Fill(this.animalPetDataSet.Citas);
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
