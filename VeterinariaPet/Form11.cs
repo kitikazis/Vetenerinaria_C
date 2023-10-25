@@ -100,7 +100,20 @@ namespace VeterinariaPet
             abriFormHija(new N_4());
         }
 
+<<<<<<< HEAD:VeterinariaPet/Form11.cs
         private void MenuVertical_Paint(object sender, PaintEventArgs e)
+=======
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'animalPetDataSet.ObtenerTodosLosUsuarios' Puede moverla o quitarla según sea necesario.
+            this.obtenerTodosLosUsuariosTableAdapter.Fill(this.animalPetDataSet.ObtenerTodosLosUsuarios);
+            // TODO: esta línea de código carga datos en la tabla 'animalPetDataSet.Citas' Puede moverla o quitarla según sea necesario.
+            this.citasTableAdapter.Fill(this.animalPetDataSet.Citas);
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+>>>>>>> 4ee0cbf33b7ae8bbcabeee647dfab9b1bc23a5f7:VeterinariaPet/Form1.cs
         {
 
         }

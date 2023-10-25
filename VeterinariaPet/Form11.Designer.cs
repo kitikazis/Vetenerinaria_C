@@ -28,7 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD:VeterinariaPet/Form11.Designer.cs
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form11));
+=======
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+>>>>>>> 4ee0cbf33b7ae8bbcabeee647dfab9b1bc23a5f7:VeterinariaPet/Form1.Designer.cs
             this.label1 = new System.Windows.Forms.Label();
             this.panel_contenedor = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -53,6 +58,7 @@
             this.btn_reporte_ventas = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
             this.MenuVertical = new System.Windows.Forms.Panel();
+<<<<<<< HEAD:VeterinariaPet/Form11.Designer.cs
             this.button4 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -61,11 +67,37 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
+=======
+            this.animalPetDataSet = new VeterinariaPet.AnimalPetDataSet();
+            this.citasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.citasTableAdapter = new VeterinariaPet.AnimalPetDataSetTableAdapters.CitasTableAdapter();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.animalPetDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.obtenerTodosLosUsuariosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.obtenerTodosLosUsuariosTableAdapter = new VeterinariaPet.AnimalPetDataSetTableAdapters.ObtenerTodosLosUsuariosTableAdapter();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.citasBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.citaidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mascotaidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.veterinarioidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fechahoraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.motivodelacitaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.estadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+>>>>>>> 4ee0cbf33b7ae8bbcabeee647dfab9b1bc23a5f7:VeterinariaPet/Form1.Designer.cs
             this.panel_contenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.sub_menu_reportes.SuspendLayout();
             this.MenuVertical.SuspendLayout();
+<<<<<<< HEAD:VeterinariaPet/Form11.Designer.cs
             this.panel7.SuspendLayout();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.animalPetDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.citasBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.animalPetDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.obtenerTodosLosUsuariosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.citasBindingSource1)).BeginInit();
+>>>>>>> 4ee0cbf33b7ae8bbcabeee647dfab9b1bc23a5f7:VeterinariaPet/Form1.Designer.cs
             this.SuspendLayout();
             // 
             // label1
@@ -79,8 +111,13 @@
             // 
             // panel_contenedor
             // 
+<<<<<<< HEAD:VeterinariaPet/Form11.Designer.cs
             this.panel_contenedor.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel_contenedor.Controls.Add(this.panel7);
+=======
+            this.panel_contenedor.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.panel_contenedor.Controls.Add(this.dataGridView1);
+>>>>>>> 4ee0cbf33b7ae8bbcabeee647dfab9b1bc23a5f7:VeterinariaPet/Form1.Designer.cs
             this.panel_contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_contenedor.Location = new System.Drawing.Point(220, 0);
             this.panel_contenedor.Name = "panel_contenedor";
@@ -281,6 +318,8 @@
             this.sub_menu_reportes.Paint += new System.Windows.Forms.PaintEventHandler(this.SubMenu_Reportes_Paint);
             // 
             // panel12
+<<<<<<< HEAD:VeterinariaPet/Form11.Designer.cs
+=======
             // 
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.panel12.Location = new System.Drawing.Point(3, 125);
@@ -357,6 +396,172 @@
             this.btn_reporte_ventas.Text = "Ventas";
             this.btn_reporte_ventas.UseVisualStyleBackColor = false;
             this.btn_reporte_ventas.Click += new System.EventHandler(this.btn_reporte_ventas_Click);
+            // 
+            // panel9
+>>>>>>> 4ee0cbf33b7ae8bbcabeee647dfab9b1bc23a5f7:VeterinariaPet/Form1.Designer.cs
+            // 
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel12.Location = new System.Drawing.Point(3, 125);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(10, 49);
+            this.panel12.TabIndex = 19;
+            // 
+            // btn_reportes_pagos
+            // 
+<<<<<<< HEAD:VeterinariaPet/Form11.Designer.cs
+            this.btn_reportes_pagos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_reportes_pagos.FlatAppearance.BorderSize = 0;
+            this.btn_reportes_pagos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btn_reportes_pagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_reportes_pagos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reportes_pagos.ForeColor = System.Drawing.Color.White;
+            this.btn_reportes_pagos.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btn_reportes_pagos.Location = new System.Drawing.Point(12, 125);
+            this.btn_reportes_pagos.Name = "btn_reportes_pagos";
+            this.btn_reportes_pagos.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btn_reportes_pagos.Size = new System.Drawing.Size(144, 49);
+            this.btn_reportes_pagos.TabIndex = 20;
+            this.btn_reportes_pagos.Text = "Pagos";
+            this.btn_reportes_pagos.UseVisualStyleBackColor = false;
+            this.btn_reportes_pagos.Click += new System.EventHandler(this.btn_reportes_pagos_Click);
+=======
+            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.MenuVertical.Controls.Add(this.sub_menu_reportes);
+            this.MenuVertical.Controls.Add(this.panel5);
+            this.MenuVertical.Controls.Add(this.btn_reportes);
+            this.MenuVertical.Controls.Add(this.panel6);
+            this.MenuVertical.Controls.Add(this.button5);
+            this.MenuVertical.Controls.Add(this.panel3);
+            this.MenuVertical.Controls.Add(this.button2);
+            this.MenuVertical.Controls.Add(this.panel4);
+            this.MenuVertical.Controls.Add(this.button3);
+            this.MenuVertical.Controls.Add(this.panel2);
+            this.MenuVertical.Controls.Add(this.button1);
+            this.MenuVertical.Controls.Add(this.panel1);
+            this.MenuVertical.Controls.Add(this.btn_producto);
+            this.MenuVertical.Controls.Add(this.pictureBox1);
+            this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
+            this.MenuVertical.Location = new System.Drawing.Point(0, 0);
+            this.MenuVertical.Name = "MenuVertical";
+            this.MenuVertical.Size = new System.Drawing.Size(220, 824);
+            this.MenuVertical.TabIndex = 1;
+            // 
+            // animalPetDataSet
+            // 
+            this.animalPetDataSet.DataSetName = "AnimalPetDataSet";
+            this.animalPetDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // citasBindingSource
+            // 
+            this.citasBindingSource.DataMember = "Citas";
+            this.citasBindingSource.DataSource = this.animalPetDataSet;
+>>>>>>> 4ee0cbf33b7ae8bbcabeee647dfab9b1bc23a5f7:VeterinariaPet/Form1.Designer.cs
+            // 
+            // citasTableAdapter
+            // 
+            this.citasTableAdapter.ClearBeforeFill = true;
+            // 
+            // animalPetDataSetBindingSource
+            // 
+            this.animalPetDataSetBindingSource.DataSource = this.animalPetDataSet;
+            this.animalPetDataSetBindingSource.Position = 0;
+            // 
+<<<<<<< HEAD:VeterinariaPet/Form11.Designer.cs
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel10.Location = new System.Drawing.Point(3, 3);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(10, 49);
+            this.panel10.TabIndex = 15;
+            // 
+            // btn_reporte_ventas
+            // 
+            this.btn_reporte_ventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_reporte_ventas.FlatAppearance.BorderSize = 0;
+            this.btn_reporte_ventas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btn_reporte_ventas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_reporte_ventas.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_reporte_ventas.ForeColor = System.Drawing.Color.White;
+            this.btn_reporte_ventas.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btn_reporte_ventas.Location = new System.Drawing.Point(12, 3);
+            this.btn_reporte_ventas.Name = "btn_reporte_ventas";
+            this.btn_reporte_ventas.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btn_reporte_ventas.Size = new System.Drawing.Size(144, 49);
+            this.btn_reporte_ventas.TabIndex = 16;
+            this.btn_reporte_ventas.Text = "Ventas";
+            this.btn_reporte_ventas.UseVisualStyleBackColor = false;
+            this.btn_reporte_ventas.Click += new System.EventHandler(this.btn_reporte_ventas_Click);
+=======
+            // obtenerTodosLosUsuariosBindingSource
+            // 
+            this.obtenerTodosLosUsuariosBindingSource.DataMember = "ObtenerTodosLosUsuarios";
+            this.obtenerTodosLosUsuariosBindingSource.DataSource = this.animalPetDataSetBindingSource;
+            // 
+            // obtenerTodosLosUsuariosTableAdapter
+            // 
+            this.obtenerTodosLosUsuariosTableAdapter.ClearBeforeFill = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.citaidDataGridViewTextBoxColumn,
+            this.mascotaidDataGridViewTextBoxColumn,
+            this.veterinarioidDataGridViewTextBoxColumn,
+            this.fechahoraDataGridViewTextBoxColumn,
+            this.motivodelacitaDataGridViewTextBoxColumn,
+            this.estadoDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.citasBindingSource1;
+            this.dataGridView1.Location = new System.Drawing.Point(136, 147);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(659, 452);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // citasBindingSource1
+            // 
+            this.citasBindingSource1.DataMember = "Citas";
+            this.citasBindingSource1.DataSource = this.animalPetDataSetBindingSource;
+            // 
+            // citaidDataGridViewTextBoxColumn
+            // 
+            this.citaidDataGridViewTextBoxColumn.DataPropertyName = "cita_id";
+            this.citaidDataGridViewTextBoxColumn.HeaderText = "cita_id";
+            this.citaidDataGridViewTextBoxColumn.Name = "citaidDataGridViewTextBoxColumn";
+            this.citaidDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // mascotaidDataGridViewTextBoxColumn
+            // 
+            this.mascotaidDataGridViewTextBoxColumn.DataPropertyName = "mascota_id";
+            this.mascotaidDataGridViewTextBoxColumn.HeaderText = "mascota_id";
+            this.mascotaidDataGridViewTextBoxColumn.Name = "mascotaidDataGridViewTextBoxColumn";
+            // 
+            // veterinarioidDataGridViewTextBoxColumn
+            // 
+            this.veterinarioidDataGridViewTextBoxColumn.DataPropertyName = "veterinario_id";
+            this.veterinarioidDataGridViewTextBoxColumn.HeaderText = "veterinario_id";
+            this.veterinarioidDataGridViewTextBoxColumn.Name = "veterinarioidDataGridViewTextBoxColumn";
+            // 
+            // fechahoraDataGridViewTextBoxColumn
+            // 
+            this.fechahoraDataGridViewTextBoxColumn.DataPropertyName = "fecha_hora";
+            this.fechahoraDataGridViewTextBoxColumn.HeaderText = "fecha_hora";
+            this.fechahoraDataGridViewTextBoxColumn.Name = "fechahoraDataGridViewTextBoxColumn";
+            // 
+            // motivodelacitaDataGridViewTextBoxColumn
+            // 
+            this.motivodelacitaDataGridViewTextBoxColumn.DataPropertyName = "motivo_de_la_cita";
+            this.motivodelacitaDataGridViewTextBoxColumn.HeaderText = "motivo_de_la_cita";
+            this.motivodelacitaDataGridViewTextBoxColumn.Name = "motivodelacitaDataGridViewTextBoxColumn";
+            // 
+            // estadoDataGridViewTextBoxColumn
+            // 
+            this.estadoDataGridViewTextBoxColumn.DataPropertyName = "estado";
+            this.estadoDataGridViewTextBoxColumn.HeaderText = "estado";
+            this.estadoDataGridViewTextBoxColumn.Name = "estadoDataGridViewTextBoxColumn";
+>>>>>>> 4ee0cbf33b7ae8bbcabeee647dfab9b1bc23a5f7:VeterinariaPet/Form1.Designer.cs
             // 
             // panel9
             // 
@@ -548,11 +753,24 @@
             this.Controls.Add(this.label1);
             this.Name = "Form11";
             this.Text = "Form1";
+<<<<<<< HEAD:VeterinariaPet/Form11.Designer.cs
+=======
+            this.Load += new System.EventHandler(this.Form1_Load);
+>>>>>>> 4ee0cbf33b7ae8bbcabeee647dfab9b1bc23a5f7:VeterinariaPet/Form1.Designer.cs
             this.panel_contenedor.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.sub_menu_reportes.ResumeLayout(false);
             this.MenuVertical.ResumeLayout(false);
+<<<<<<< HEAD:VeterinariaPet/Form11.Designer.cs
             this.panel7.ResumeLayout(false);
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.animalPetDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.citasBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.animalPetDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.obtenerTodosLosUsuariosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.citasBindingSource1)).EndInit();
+>>>>>>> 4ee0cbf33b7ae8bbcabeee647dfab9b1bc23a5f7:VeterinariaPet/Form1.Designer.cs
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -584,6 +802,7 @@
         private System.Windows.Forms.Button btn_reportes_ventas;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Button btn_reporte_ventas;
+<<<<<<< HEAD:VeterinariaPet/Form11.Designer.cs
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button11;
@@ -592,6 +811,23 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button6;
+=======
+        private AnimalPetDataSet animalPetDataSet;
+        private System.Windows.Forms.BindingSource citasBindingSource;
+        private AnimalPetDataSetTableAdapters.CitasTableAdapter citasTableAdapter;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.BindingSource animalPetDataSetBindingSource;
+        private System.Windows.Forms.BindingSource obtenerTodosLosUsuariosBindingSource;
+        private AnimalPetDataSetTableAdapters.ObtenerTodosLosUsuariosTableAdapter obtenerTodosLosUsuariosTableAdapter;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn citaidDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mascotaidDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn veterinarioidDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fechahoraDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn motivodelacitaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn estadoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource citasBindingSource1;
+>>>>>>> 4ee0cbf33b7ae8bbcabeee647dfab9b1bc23a5f7:VeterinariaPet/Form1.Designer.cs
     }
 }
 

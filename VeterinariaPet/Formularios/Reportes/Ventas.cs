@@ -16,5 +16,10 @@ namespace VeterinariaPet.Formularios.Reportes
         {
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
