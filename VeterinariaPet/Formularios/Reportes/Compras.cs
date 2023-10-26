@@ -16,5 +16,17 @@ namespace VeterinariaPet.Formularios.Reportes
         {
             InitializeComponent();
         }
+
+        private void Compras_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'animalPetData.Inventario' Puede moverla o quitarla según sea necesario.
+            this.inventarioTableAdapter.Fill(this.animalPetData.Inventario);
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

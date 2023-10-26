@@ -16,5 +16,17 @@ namespace VeterinariaPet.Formularios.Reportes
         {
             InitializeComponent();
         }
+
+        private void Pagos_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'animalPetData.Recetas' Puede moverla o quitarla según sea necesario.
+            this.recetasTableAdapter.Fill(this.animalPetData.Recetas);
+
+        }
+
+        private void Tabla_Mascota_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

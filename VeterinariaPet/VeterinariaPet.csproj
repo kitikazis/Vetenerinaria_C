@@ -49,7 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Formularios\conexion.cs" />
+    <Compile Include="AnimalPetData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnimalPetData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalPetDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnimalPetDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form11.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +160,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="AnimalPetData.xsc">
+      <DependentUpon>AnimalPetData.xsd</DependentUpon>
+    </None>
+    <None Include="AnimalPetData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnimalPetData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnimalPetData.xss">
+      <DependentUpon>AnimalPetData.xsd</DependentUpon>
+    </None>
+    <None Include="AnimalPetDataSet.xsc">
+      <DependentUpon>AnimalPetDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AnimalPetDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnimalPetDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnimalPetDataSet.xss">
+      <DependentUpon>AnimalPetDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -166,6 +197,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="datos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\1_mascotas.png" />
+    <Content Include="img\2_dueños.png" />
+    <Content Include="img\3_historia_clinica.png" />
+    <Content Include="img\4_citas.png" />
+    <Content Include="img\5_examenes_clinicos.png" />
+    <Content Include="img\6_recetas_y_medicamentos.png" />
+    <Content Include="img\7_inventario.png" />
+    <Content Include="img\8_veterinarios.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

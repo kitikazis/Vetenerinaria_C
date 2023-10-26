@@ -16,5 +16,12 @@ namespace VeterinariaPet.Formularios
         {
             InitializeComponent();
         }
+
+        private void N_3_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'animalPetData.HistoriaClinica' Puede moverla o quitarla según sea necesario.
+            this.historiaClinicaTableAdapter.Fill(this.animalPetData.HistoriaClinica);
+
+        }
     }
 }
